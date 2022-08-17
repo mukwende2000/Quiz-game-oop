@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game-play">
+            <h1>Quiz of knowledge</h1>
+            <div class="stats">
+                <div>
+                    <div  class="chances">
+                        <span>&#9829;</span> <span>&#9829;</span> <span>&#9829;</span>
+                    </div>
+                    <h3>Score: <span class="current-score">0</span></h3>
+                </div>
+                <div class="timer">10</div>
+            </div>
+            <div class="question">
+                In "The Jungle Book" what kind of animal is Shere Khan?
+            </div> 
+            <div class="choices">
+                <div class="choice a">snake</div>
+                <div class="choice b">tiger</div>
+                <div class="choice c">wolf</div>
+                <div class="choice d">bear</div>
+            </div>
+        </div>
+        <div class="results-page">
+            <h1>Game over!</h1>
+            <p class="score-container">score: <span class="final-score"></span></p>
+            <div>
+                <p class="correct-answers-container"><span class="check entity">&#10004;</span> correct answers: <span class="correct-answers"></span></p>
+                <p class="wrong-answers-container"><span class="close entity">&#x274c;</span> wrong answers: <span class="wrong-answers"></span></p>
+            </div>
+            <div class="btns">
+                <button class="replay">replay</button>
+                <button class="home">home</button>
+                <button class="score-btn">score</button>
+            </div>
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
